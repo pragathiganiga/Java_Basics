@@ -35,3 +35,24 @@ Closes the main method block.
 Closes the Main class block.
 
 ---
+## 🔗 Java Concatenation
+
+Concatenation means joining text and data together to form a single message.
+
+### 📌 Program Code
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        String name = "Pragathi";
+        String message = name + " welcome to house";
+        System.out.println(message);
+    }
+}
+```
+
+### 📝 Explanation
+
+- `String name = "Pragathi";` → Stores the name in a variable.  
+- `String message = name + " welcome to house";` → Joins the variable and text using `+` operator.  
+- `System.out.println(message);` → Prints the final message.
